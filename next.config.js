@@ -1,4 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+
+   
+        serverRuntimeConfig: {
+          rootDir: './app',
+        },
+      
+
+
+}
 
 module.exports = nextConfig
